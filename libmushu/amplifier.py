@@ -128,9 +128,9 @@ class Amplifier(object):
         >>> while True:
         ...     time.sleep(.5)
         ...     data, marker = amp.get_data()
-        ...     print '---'
-        ...     print data
-        ...     print marker
+        ...     print ('---')
+        ...     print (data)
+        ...     print (marker)
         ...
         ---
         [[590 938  72]]
