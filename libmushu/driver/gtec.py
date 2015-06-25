@@ -20,6 +20,8 @@
 
 # TODO: update to new version of pyusb
 
+from __future__ import print_function
+
 import struct
 import time
 from exceptions import Exception
